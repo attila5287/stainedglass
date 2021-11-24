@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/stglass/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/stglass/static/js/main.881302cb.chunk.js",
+    "main.js.map": "/stglass/static/js/main.881302cb.chunk.js.map",
+    "runtime-main.js": "/stglass/static/js/runtime-main.de7efea8.js",
+    "runtime-main.js.map": "/stglass/static/js/runtime-main.de7efea8.js.map",
+    "static/js/2.bbcfe449.chunk.js": "/stglass/static/js/2.bbcfe449.chunk.js",
+    "static/js/2.bbcfe449.chunk.js.map": "/stglass/static/js/2.bbcfe449.chunk.js.map",
+    "static/js/3.e189aa60.chunk.js": "/stglass/static/js/3.e189aa60.chunk.js",
+    "static/js/3.e189aa60.chunk.js.map": "/stglass/static/js/3.e189aa60.chunk.js.map",
+    "index.html": "/stglass/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/stglass/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.bbcfe449.chunk.js.LICENSE.txt": "/stglass/static/js/2.bbcfe449.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/stglass/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.de7efea8.js",
+    "static/js/2.bbcfe449.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.881302cb.chunk.js"
+  ]
+}
