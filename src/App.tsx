@@ -8,7 +8,7 @@ function App() {
   return (
     <>
         <nav className="navbar navbar-expand navbar-dark bg-primary sticky-top">
-            <a className="navbar-brand p-0" href="#">
+            <a className="navbar-brand p-0" href="`#">
                 <img src="https://raw.githubusercontent.com/attila5287/stainedglassimg/main/nav/brand.png" alt=""  />
             </a>
             <ul className="navbar-nav">
