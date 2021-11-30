@@ -9,7 +9,7 @@ function App() {
     <>
         <nav className="navbar navbar-expand navbar-dark bg-primary sticky-top">
             <a className="navbar-brand p-0" href="`#">
-                <img src="https://raw.githubusercontent.com/attila5287/stainedglassimg/main/nav/brand.png" alt=""  />
+                <img src="https://raw.githubusercontent.com/attila5287/stainedglassimg/main/nav/brand.png" alt="Stained Glass"  />
             </a>
             <ul className="navbar-nav">
                 <li className="nav-item">
@@ -18,16 +18,13 @@ function App() {
                 </a>
                 </li>
                 <li className="nav-item">
-                <a className="nav-link" href="#">Features</a>
-                </li>
-                <li className="nav-item">
                 <a className="nav-link" href="#">Pricing</a>
                 </li>
                 <li className="nav-item">
                 <a className="nav-link" href="#">About</a>
                 </li>
             </ul>
-          </nav>
+        </nav>
         <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
             <ol className="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="1" className="active"></li>
