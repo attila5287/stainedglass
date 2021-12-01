@@ -13,15 +13,12 @@ function App() {
 
     return (
     <>
-        <Nav />
+        <Nav loading={ loading }/>
         <div className="mini">
-
-        <Loading loading={ loading }></Loading>
-        <Carousel />
-       
-
-            </div>
-            </>
+            <Loading loading={ loading }></Loading>
+            <Carousel />
+        </div>
+    </>
   );
 }
 

@@ -2,23 +2,17 @@ import React from 'react'
 
 export default function index() {
     return (
-        <>
-           <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
-            <ol className="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="1" className="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-            </ol>
+        <div className="mini container-fluid">
+            <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                <img className="d-block w-100" src="https://raw.githubusercontent.com/attila5287/stainedglassimg/main/carousel/1.jpg" alt="First slide"/>
+                <img className="d-block w-100" src="https://raw.githubusercontent.com/attila5287/stainedglassimg/main/carousel/00.jpg" alt="First slide"/>
                 </div>
-                <div className="carousel-item">
-                <img className="d-block w-100" src="https://raw.githubusercontent.com/attila5287/stainedglassimg/main/carousel/2.jpg" alt="Second slide"/>
-                </div>
-                <div className="carousel-item">
-                <img className="d-block w-100" src="https://raw.githubusercontent.com/attila5287/stainedglassimg/main/carousel/3.jpg" alt="Third slide"/>
-                </div>
+                { Array.from({length:25}).map( (n,i) => {
+                    return <div className="carousel-item">
+                        <img className="d-block w-100" src={ "https://raw.githubusercontent.com/attila5287/stainedglassimg/main/carousel/" + i + ".jpg" } alt={i+" nd slide"} />
+                    </div>
+            })}
             </div>
             <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 <span className="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -29,6 +23,6 @@ export default function index() {
                 <span className="sr-only">Next</span>
             </a>
             </div>  
-        </>
+        </div>
     )
 }
