@@ -17,7 +17,7 @@ export default function index ( props ) {
           </h2>
           </Animated>
       </div>;
-  }
+   }
 
     return (
         <>

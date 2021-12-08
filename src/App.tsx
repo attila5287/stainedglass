@@ -5,20 +5,23 @@ import {Animated} from 'react-animated-css';
 import Loading from "./components/Loading";
 import Nav from "./components/Nav";
 import Carousel from "./components/Carousel";
+import Info from "./components/Info";
 import { useState } from "react";
 
 
 function App() {
   const [loading, setLoading] = useState<boolean>(false);
 
-    return (
-    <>
-        <Nav loading={ loading }/>
-        <div className="mini">
-            <Loading loading={ loading }></Loading>
-            <Carousel />
-        </div>
-    </>
+  return (
+  <>
+    <Nav loading={ loading }/>
+    <div className="mini">
+      <Loading loading={ loading }/>
+        <Info />
+        <Carousel />
+              
+    </div>
+  </>
   );
 }
 

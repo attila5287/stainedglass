@@ -7,10 +7,18 @@ export default function index() {
             <div className="carousel-inner">
                 <div className="carousel-item active">
                 <img className="d-block w-100" src="https://raw.githubusercontent.com/attila5287/stainedglassimg/main/carousel/00.jpg" alt="First slide"/>
+                <div class="carousel-caption">
+                    <h5>Welcome to Stained Art Glass Denver</h5>
+                    <p> Ramazan Kayacan &copy; 2021 </p>
                 </div>
-                { Array.from({length:25}).map( (n,i) => {
+            </div>
+                { Array.from({length:20}).map( (n,i) => {
                     return <div className="carousel-item">
-                        <img className="d-block w-100" src={ "https://raw.githubusercontent.com/attila5287/stainedglassimg/main/carousel/" + i + ".jpg" } alt={i+" nd slide"} />
+                        <img className="d-block w-100" src={ "https://raw.githubusercontent.com/attila5287/stainedglassimg/main/carousel/" + i + ".jpg" } alt={"no "+ i + " slide" } />
+                        <div class="carousel-caption">
+                            <h5> References, awards and work</h5>
+                            <p>&middot; Stained Art Glass Denver, Ramazan Kayacan</p>
+                        </div>
                     </div>
             })}
             </div>
