@@ -17,7 +17,7 @@ export default function index() {
                     animationOut='bounceOut'
                     isVisible={true}
                 >
-        <img className="img-minix rounded-3xl" src="https://raw.githubusercontent.com/attila5287/stainedglassimg/main/awards/0.png" alt="avatar"/>            
+        <img className="add-anime img-minix rounded-3xl" src="https://raw.githubusercontent.com/attila5287/stainedglassimg/main/awards/0.png" alt="avatar"/>            
                         </Animated>
         </div>
         <div className="col-8">
