@@ -9,6 +9,7 @@ import Carousel from "./components/Carousel";
 import Refs from "./components/Refs";
 import Awards from "./components/Awards";
 import Contact from "./components/Contact";
+import Info from "./components/Info";
 import { useState } from "react";
 
 
@@ -24,6 +25,7 @@ function App() {
         <Awards />
         <Refs />
         <Carousel />
+        <Info />
     </div>
     <NavBottom/>
   </>

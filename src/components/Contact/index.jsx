@@ -23,6 +23,7 @@ export default function index() {
                 <div className='col-8'>
         {
         [
+            {icon:'r fa-copyright', content:'Ramazan Kayacan'},
             {icon:'s fa-envelope', content:'contact@example.com'},
             {icon:'b fa-skype', content:'ExampleUserName'},
             {icon:'s fa-phone', content:'720-710-7100'},

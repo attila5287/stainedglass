@@ -27,6 +27,7 @@ export default function index(props) {
         { icon: 'trophy', section: 'awards' },
         { icon: 'comments', section: 'refs' },
         { icon: 'film', section: 'slideshow' },
+        { icon: 'info', section: 'info' },
     ].map(d=>{return(      <li className="nav-item">
         <a className="nav-link px-4 py-1" href={"#"+d.section}>
           <h3 className={'fas fa-'+d.icon}>
