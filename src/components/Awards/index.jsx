@@ -13,7 +13,7 @@ export default function index() {
             <div className="col-4 text-center">
                 <Animated
                     animationIn='slideInLeft'
-                    animationInDelay={500}
+                    animationInDelay={250}
                     animationOut='bounceOut'
                     isVisible={true}
                 >
@@ -22,9 +22,11 @@ export default function index() {
         </div>
         <div className="col-8">
               <p className='text-center'>
-                  <i className='text-xl fas fa-quote-left fa-pull-left'></i>
+                  <i className='text-xl fas fa-angle-left fa-pull-left'></i>
                 { [
                     'Instute of Classical Architecture & Art, Rocky Mountain',
+                    'Award:',
+                    '2014 Robert & Judi Newman Awards',
                     'Winner:',
                     'Ann Wolff Glass Design Artizanship',
                     'Project Team:',
@@ -37,13 +39,13 @@ export default function index() {
                         animationOut='bounceOut'
                         isVisible={true}
                         >
-                                <i>{d}
-                                </i>
+                            <i>{d}
+                            </i>
                         </Animated>
                           
                           )
                         })}
-                    <i className='text-xl fas fa-quote-right fa-pull-right'></i>
+                    <i className='text-xl fas fa-angle-right fa-pull-right'></i>
                   
             </p>
         </div>

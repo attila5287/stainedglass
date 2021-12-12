@@ -11,7 +11,7 @@ export default function index() {
       <div className="col-4 text-center">
         <Animated
                         animationIn='slideInLeft'
-                        animationInDelay={500}
+                        animationInDelay={0}
                         animationOut='bounceOut'
                         isVisible={true}
                 >
