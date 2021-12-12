@@ -23,9 +23,9 @@ export default function index(props) {
     <ul className="navbar-nav py-1">
     { [
         { icon: 'home', section: '' },
-        { icon: 'envelope', section: 'contact' },
-        { icon: 'trophy', section: 'awards' },
         { icon: 'comments', section: 'refs' },
+        { icon: 'trophy', section: 'awards' },
+        { icon: 'envelope', section: 'contact' },
         { icon: 'film', section: 'slideshow' },
         { icon: 'info', section: 'info' },
     ].map(d=>{return(      <li className="nav-item">

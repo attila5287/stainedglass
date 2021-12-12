@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function index() {
     return (
-        <div id="contact" className='my-5'>
+        <div id="contact" className='section'>
         <h2 className='titre font-style-italic'>
             <i className='fas fa-envelope mx-2 '></i>
             Contact</h2>
