@@ -3,9 +3,9 @@ import React from 'react'
 export default function index() {
   return (
       <div className="section" id='slideshow'>
-        <h2 className='titre font-style-italic'>
+        <div className='titre font-style-italic'>
             <i className='fas fa-film mx-2 '></i>
-            Gallery</h2>
+            Gallery</div>
         <hr/>          
       <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
       <div className="carousel-inner">

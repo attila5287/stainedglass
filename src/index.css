@@ -35,7 +35,6 @@ body {
     font-size: 0.85rem;
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
 }
 
 .bg-purple {
@@ -211,13 +210,6 @@ div.rotate-text {
     background-color: #027e33;
 }
 
-.titre {
-    font-family: Ubuntu;
-}
-
-.text-ubu {
-    font-family: Ubuntu;
-}
 
 .card-columns {
     column-count: 4;
@@ -310,11 +302,11 @@ tbody td:last-child {
 }
 
 .add-anime {
-    transition: ease-in 0.25s;
+    transition: ease-in 0.15s;
 }
 
 .add-anime:hover {
-    transform: scale(1.5, 1.5);
+    transform: scale(1.25, 1.25);
     box-shadow: #aaa 1px 1px 1px 1px;
     border-radius: 1.75rem 1.75rem 1.75rem 1.75rem ;
     color: springgreen;
@@ -332,7 +324,14 @@ tbody td:last-child {
     color: crimson;
 }
 .section {
-    margin: 2rem 1rem 5rem 1rem;
-  padding-top: 4rem;
+    margin:  1rem 1rem 5rem 1rem;
+    padding-top: 4rem;
+    
+}
+
+.titre {
+    font-family: Ubuntu;
+    color: #67a2b4c9;
+    font-size: 1.750rem;
 
 }

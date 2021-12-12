@@ -5,9 +5,9 @@ import {Animated} from 'react-animated-css';
 export default function index() {
     return (
         <div id='awards' className='section'>
-        <h2 className='titre font-style-italic'>
+        <div className='titre font-style-italic'>
             <i className='fas fa-trophy mx-2 '></i>
-            Awards</h2>
+            Awards</div>
             <hr />
             <div className="row no-gutters my-5 px-4">
             <div className="col-4 text-center">

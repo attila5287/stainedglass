@@ -4,9 +4,9 @@ import {Animated} from 'react-animated-css';
 export default function index() {
     return (
         <div className="section" id='info'>
-        <h2 className='titre font-style-italic'>
+        <div className='titre font-style-italic'>
             <i className='fas fa-info-circle mx-2 '></i>
-            Info</h2>
+            Info</div>
         <hr/>          
 {    ['The term stained glass refers to coloured glass as a material and to works created from it. Throughout its thousand-year history, the term has been applied almost exclusively to the windows of churches and other significant religious buildings. Although traditionally made in flat panels and used as windows, the creations of modern stained glass artists also include three-dimensional structures and sculpture. Modern vernacular usage has often extended the term "stained glass" to include domestic lead light and objets dart created from foil glasswork exemplified in the famous lamps of Louis Comfort Tiffany',
 'As a material stained glass is glass that has been coloured by adding metallic salts during its manufacture, and usually then further decorating it in various ways. The coloured glass is crafted into stained glass windows in which small pieces of glass are arranged to form patterns or pictures, held together traditionally by strips of lead and supported by a rigid frame. Painted details and yellow stain are often used to enhance the design. The term stained glass is also applied to windows in enamelled glass in which the colours have been painted onto the glass and then fused to the glass in a kiln; very often this technique is only applied to parts of a window',
