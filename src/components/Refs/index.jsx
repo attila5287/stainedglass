@@ -2,10 +2,22 @@ import React from 'react'
 import {Animated} from 'react-animated-css';
 
 export default function index() {
-  return (
-    <div className="row">
-        <div className="col-4 text-center">
-        <img className="img-minix" src="https://raw.githubusercontent.com/attila5287/stainedglassimg/main/avatar/0.png" alt="avatar"/>            
+    return ( <div id='refs' className='section'>
+        <h2 className='titre font-style-italic'>
+            <i className='fas fa-comments mx-2 '></i>
+            References</h2>
+        <hr/>
+    <div className="row no-gutters my-5 px-4">
+      <div className="col-4 text-center">
+        <Animated
+                        animationIn='slideInLeft'
+                        animationInDelay={500}
+                        animationOut='bounceOut'
+                        isVisible={true}
+                >
+                <img className="img-minix" src="https://raw.githubusercontent.com/attila5287/stainedglassimg/main/avatar/0.png" alt="avatar" />            
+                    
+                    </Animated>
         </div>
         <div className="col-8">
               <p className='text-center'>
@@ -32,6 +44,7 @@ export default function index() {
                   
             </p>
         </div>
+    </div>
     </div>
   )
 }

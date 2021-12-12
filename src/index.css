@@ -1,5 +1,4 @@
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -209,18 +208,11 @@ div.rotate-text {
 }
 
 .bg-green {
-
     background-color: #027e33;
-    ;
 }
 
-.nav-item {
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
-}
-
-.nav-item {
-    font-size: 1.5rem;
+.titre {
+    font-family: Ubuntu;
 }
 
 .text-ubu {
@@ -232,7 +224,7 @@ div.rotate-text {
 }
 
 .img-minix {
-    width: 5.50rem;
+    width: 10.00rem;
 }
 
 .img-mini {
@@ -322,36 +314,10 @@ tbody td:last-child {
 }
 
 .add-anime:hover {
-    transform: scale(1.1, 1.1);
-}
-
-.sidebar {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 100;
-    /* Behind the navbar */
-    padding: 48px 0 0;
-    /* Height of navbar */
-    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
-}
-
-.sidebar-sticky {
-    position: relative;
-    top: 0;
-    height: calc(100vh - 48px);
-    padding-top: .5rem;
-    overflow-x: hidden;
-    overflow-y: auto;
-    /* Scrollable contents if viewport is shorter than content. */
-}
-
-@supports ((position: -webkit-sticky) or (position: sticky)) {
-    .sidebar-sticky {
-        position: -webkit-sticky;
-        position: sticky;
-    }
+    transform: scale(1.5, 1.5);
+    box-shadow: #aaa 1px 1px 1px 1px;
+    border-radius: 1.75rem 1.75rem 1.75rem 1.75rem ;
+    color: springgreen;
 }
 
 .text-green {
@@ -364,4 +330,9 @@ tbody td:last-child {
 
 .text-red {
     color: crimson;
+}
+.section {
+    margin: 2rem 1rem 5rem 1rem;
+  padding-top: 4rem;
+
 }
