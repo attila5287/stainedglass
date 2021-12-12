@@ -21,9 +21,9 @@ function App() {
     <Nav loading={ loading }/>
     <div className="mini">
         <Loading loading={ loading }/>
-        <Contact />
-        <Awards />
         <Refs />
+        <Awards />
+        <Contact />
         <Carousel />
         <Info />
     </div>
