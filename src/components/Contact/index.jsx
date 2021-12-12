@@ -20,7 +20,7 @@ export default function index() {
                     <img src="https://raw.githubusercontent.com/attila5287/stainedglassimg/main/contact/0.png" alt="contact" className='add-anime img-minix text-center'/>
                 </Animated>
                 </div>
-                <div className='col-8 '>
+                <div className='col-8'>
         {
         [
             {icon:'r fa-copyright', content:'Ramazan Kayacan'},

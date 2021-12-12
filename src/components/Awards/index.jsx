@@ -24,7 +24,7 @@ export default function index() {
               <p className='text-center'>
                   <i className='text-xl fas fa-angle-left fa-pull-left'></i>
                 { [
-                    'Instute of Classical Architecture & Art, Rocky Mountain',
+                    'Institute of Classical Architecture & Art, Rocky Mountain',
                     'Award:',
                     '2014 Robert & Judi Newman Awards',
                     'Winner:',

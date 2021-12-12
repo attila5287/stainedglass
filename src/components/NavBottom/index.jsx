@@ -2,7 +2,13 @@ import React from 'react'
 
 export default function index() {
     return (
-    <div className='my-5'>
+        <div className='my-5 text-center'>
+            <hr className='my-5' />
+            <small>
+            © 2021 - Ramazan Kayacan - All Rights Reserved
+            </small>
+            
+
         <nav class="navbar fixed-bottom navbar-expand navbar-dark justify-content-center bg-dark">
             <ul class="navbar-nav">
                 { [
