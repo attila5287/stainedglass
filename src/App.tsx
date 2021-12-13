@@ -27,7 +27,7 @@ function App() {
         <Info />
     </div>
     <NavBottom/>
-  </>
+  </ >
   );
 }
 

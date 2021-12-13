@@ -13,7 +13,7 @@ export default function index() {
         <Imaj src="https://raw.githubusercontent.com/attila5287/stainedglassimg/main/awards/0.jpg" alt='awards'/>
         </div>
         <div className="col-8">
-          <p className='text-center'>
+          <div className='text-center'>
             <i className='text-xl fas fa-angle-left fa-pull-left'></i>
             {[
               'Institute of Classical Architecture & Art, Rocky Mountain',
@@ -26,12 +26,13 @@ export default function index() {
               'Ramazan Kayacan'
             ].map((d, i) => {
               return (
-                <Animated
+                  <Animated
+                      key={ 'awards' + i }
                   animationIn='slideInRight'
                   animationInDelay={i * 500}
                   animationOut='bounceOut'
                   isVisible={true}>
-                  <i>{d}
+                  <i>{d}1
                   </i>
                 </Animated>
 
@@ -39,7 +40,7 @@ export default function index() {
             })}
             <i className='text-xl fas fa-angle-right fa-pull-right'></i>
 
-          </p>
+          </div>
         </div>
       </div>
 

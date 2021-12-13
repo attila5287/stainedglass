@@ -5,20 +5,27 @@ export default function index() {
   return (
       <div className="section" id='slideshow'>
         <Titre icon='s fa-film' title='Gallery' />
+        <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+            <ol className="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
+                  { Array.from( { length: 19 } ).map( (d,i) => {
+                      return (
+                    <li key={'ref'+i} data-target="#carouselExampleIndicators" data-slide-to={d}></li>
+                )})}
+            </ol>
 
-          <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img className="d-block w-100" src="https://raw.githubusercontent.com/attila5287/stainedglassimg/main/carousel/00.jpg" alt="First slide"/>
-          <div class="carousel-caption">
+          <div className="carousel-caption">
             <h5>Welcome to Stained Art Glass Denver</h5>
             <p> Ramazan Kayacan &copy; 2021 </p>
           </div>
         </div>
         { Array.from({length:19}).map( (n,i) => {
-          return <div className="carousel-item">
+          return <div  className="carousel-item"  key={'ref'+i}>
             <img className="d-block w-100" src={ "https://raw.githubusercontent.com/attila5287/stainedglassimg/main/carousel/" + i + ".jpg" } alt={"no "+ i + " slide" } />
-            <div class="carousel-caption">
+            <div className="carousel-caption">
               <h5> References, awards and work { i }</h5>
               <p>&middot; Stained Art Glass Denver &middot; Ramazan Kayacan &middot;</p>
             </div>

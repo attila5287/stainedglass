@@ -8,16 +8,15 @@ export default function index() {
             © 2021 - Ramazan Kayacan - All Rights Reserved
             </small>
             <br />
-
-        <nav class="navbar fixed-bottom navbar-expand navbar-dark bg-dark border-0">
-            <ul class="navbar-nav w-100 nav-pills nav-justified">
+        <nav className="navbar fixed-bottom navbar-expand navbar-dark bg-dark border-0">
+            <ul className="navbar-nav w-100 nav-pills nav-justified">
                 { [
                     {social:'instagram', href:'https://www.instagram.com/'},
                     {social:'facebook' , href:'https://www.facebook.com/'},
                     {social:'pinterest', href:'https://www.pinterest.com/'},
-                ].map(d => {return(<li class="nav-item">
-                <a class="nav-link py-1" href={d.href}>
-                    <h3 class={"text-info add-anime px-4 fab fa-"+d.social}></h3>
+                ].map((d,i) => {return(<li  key={'navbottom'+i} className="nav-item">
+                <a className="nav-link py-1" href={d.href}>
+                    <h3 className={"text-info add-anime px-4 fab fa-"+d.social}></h3>
                 </a>
             </li>)}) }
             </ul>

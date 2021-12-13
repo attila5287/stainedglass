@@ -22,16 +22,16 @@ export default function index(props) {
     </a>
     <ul className="w-100 nav nav-justified py-1">
     { [
-        { icon: 'home', section: '' },
-        { icon: 'comments', section: 'refs' },
-        { icon: 'trophy', section: 'awards' },
-        { icon: 'envelope', section: 'contact' },
-        { icon: 'film', section: 'slideshow' },
-        { icon: 'info', section: 'info' },
-    ].map(d=>{return(      <li className="nav-item">
-        <a className="nav-link px-3 py-2" href={"#"+d.section}>
-          <h3 className={'fas fa-'+d.icon}>
-          </h3>
+        { icon: 's fa-home', section: '' },
+        { icon: 's fa-comments', section: 'refs' },
+        { icon: 's fa-trophy', section: 'awards' },
+        { icon: 's fa-envelope', section: 'contact' },
+        { icon: 's fa-film', section: 'slideshow' },
+        { icon: 's fa-info', section: 'info' },
+    ].map((d,i)=>{return(      <li key={'nav'+i} className="nav-item">
+        <a className="nav-link py-2" href={"#"+d.section}>
+          <i className={'text-xl fa'+d.icon}>
+          </i>
         </a>
       </li>)}) }
     </ul>

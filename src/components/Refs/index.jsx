@@ -13,7 +13,7 @@ export default function index() {
                 
             </div>
         <div className="col-8">
-              <p className='text-center'>
+              <div className='text-center'>
                   <i className='text-xl fas fa-quote-left fa-pull-left'></i>
                   { [ 'As the owner of the Collins Architectural Glass which has been in business since 1980, I have  known Ramazan Kayacan since 1999.',
                       'He has performed work on many occasions for me as a contract worker, including fabrication of stained glass panels.',
@@ -23,6 +23,7 @@ export default function index() {
                       return (
                         <Animated
                         animationIn='slideInRight'
+                        key={'ref'+i}
                         animationInDelay={i*500}
                         animationOut='bounceOut'
                         isVisible={true}
@@ -35,7 +36,7 @@ export default function index() {
                         })}
                     <i className='text-xl fas fa-quote-right fa-pull-right'></i>
                   
-            </p>
+            </div>
         </div>
     </div>
     </div>

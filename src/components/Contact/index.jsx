@@ -28,24 +28,15 @@ export default function index() {
               content: 'ExampleUserName'
             }, {
               icon: 's fa-phone',
-              content: '720-710-7100'
+              content: '7207107100'
             }, {
               icon: 'b fa-whatsapp',
-              content: '720-710-7100'
-            }, {
-              icon: 'b fa-instagram',
-              content: 'https://www.instagram.com/StainedArtGlassDenver'
-            }, {
-              icon: 'b fa-facebook',
-              content: 'https://www.facebook.com/StainedArtGlassDenver'
-            }, {
-              icon: 'b fa-pinterest',
-              content: 'https://www.pinterest.com/StainedArtGlassDenver'
+              content: '7207107100'
             }
           ].map((d, i) => {
             return (
 
-              <Animated
+              <Animated key={'social'+i}
                 animationIn='slideInRight'
                 animationInDelay={i * 250}
                 animationOut='bounceOut'
