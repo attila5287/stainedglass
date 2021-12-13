@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/stainedglass/static/css/main.9416d615.chunk.css",
-    "main.js": "/stainedglass/static/js/main.d557c5f3.chunk.js",
-    "main.js.map": "/stainedglass/static/js/main.d557c5f3.chunk.js.map",
+    "main.js": "/stainedglass/static/js/main.a93b31bd.chunk.js",
+    "main.js.map": "/stainedglass/static/js/main.a93b31bd.chunk.js.map",
     "runtime-main.js": "/stainedglass/static/js/runtime-main.a16b1cce.js",
     "runtime-main.js.map": "/stainedglass/static/js/runtime-main.a16b1cce.js.map",
     "static/css/2.6c672de5.chunk.css": "/stainedglass/static/css/2.6c672de5.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.6c672de5.chunk.css",
     "static/js/2.6194633d.chunk.js",
     "static/css/main.9416d615.chunk.css",
-    "static/js/main.d557c5f3.chunk.js"
+    "static/js/main.a93b31bd.chunk.js"
   ]
 }
