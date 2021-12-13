@@ -13,14 +13,14 @@ export default function index(props) {
       </Animated>
     </div>;
   }
-    return ( <>
+    return ( 
         <nav className="navbar navbar-expand navbar-dark bg-primary sticky-top">
     <a className="navbar-brand p-0" href="https://attila5287.github.io/stainedglass/">
       <img
         src="https://raw.githubusercontent.com/attila5287/stainedglassimg/main/nav/brand.png"
         alt="Stained Glass"/>
     </a>
-    <ul className="navbar-nav py-1">
+    <ul className="w-100 nav nav-justified py-1">
     { [
         { icon: 'home', section: '' },
         { icon: 'comments', section: 'refs' },
@@ -29,13 +29,12 @@ export default function index(props) {
         { icon: 'film', section: 'slideshow' },
         { icon: 'info', section: 'info' },
     ].map(d=>{return(      <li className="nav-item">
-        <a className="nav-link px-4 py-1" href={"#"+d.section}>
+        <a className="nav-link px-3 py-2" href={"#"+d.section}>
           <h3 className={'fas fa-'+d.icon}>
           </h3>
         </a>
       </li>)}) }
     </ul>
   </nav>
-  </>
   )
 }

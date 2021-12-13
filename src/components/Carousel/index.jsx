@@ -1,13 +1,12 @@
 import React from 'react'
+import Titre from "../Titre";
 
 export default function index() {
   return (
       <div className="section" id='slideshow'>
-        <div className='titre font-style-italic'>
-            <i className='fas fa-film mx-2 '></i>
-            Gallery</div>
-        <hr/>          
-      <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+        <Titre icon='s fa-film' title='Gallery' />
+
+          <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img className="d-block w-100" src="https://raw.githubusercontent.com/attila5287/stainedglassimg/main/carousel/00.jpg" alt="First slide"/>

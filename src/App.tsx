@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {Animated} from 'react-animated-css';
 import Loading from "./components/Loading";
 import Nav from "./components/Nav";
 import NavBottom from "./components/NavBottom";

@@ -1,24 +1,17 @@
 import React from 'react'
 import {Animated} from 'react-animated-css';
+import Titre from "../Titre";
+import Imaj from "../Imaj";
 
 export default function index() {
     return ( <div id='refs' className='section'>
-        <div className='titre font-style-italic'>
-            <i className='fas fa-comments mx-2 '></i>
-            References</div>
-        <hr/>
-    <div className="row no-gutters my-5 px-4">
+        <Titre icon='s fa-comments' title='References' />
+        
+    <div className="row my-5 px-4">
       <div className="col-4 text-center">
-        <Animated
-                        animationIn='slideInLeft'
-                        animationInDelay={0}
-                        animationOut='bounceOut'
-                        isVisible={true}
-                >
-                <img className="add-anime img-minix" src="https://raw.githubusercontent.com/attila5287/stainedglassimg/main/avatar/0.png" alt="avatar" />            
-                    
-                    </Animated>
-        </div>
+                <Imaj src="https://raw.githubusercontent.com/attila5287/stainedglassimg/main/avatar/0.png" alt='refs' />
+                
+            </div>
         <div className="col-8">
               <p className='text-center'>
                   <i className='text-xl fas fa-quote-left fa-pull-left'></i>
