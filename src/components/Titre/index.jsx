@@ -5,7 +5,7 @@ export default function index(props) {
         <div>
             <div className='titre text-info'>
             <i className={ "fa-pull-left fa" + props.icon }></i>
-            <b className="opac-70">    { props.title } </b> 
+            <b className="">    { props.title } </b> 
             </div>
             <hr className='mx-2' />
         </div>
