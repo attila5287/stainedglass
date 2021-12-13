@@ -225,6 +225,7 @@ div.rotate-text {
 
 .img-minix {
     width: 10.00rem;
+    border-radius: 50% 50% 50% 50%;
 }
 
 .img-mini {

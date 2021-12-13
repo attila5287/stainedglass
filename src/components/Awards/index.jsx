@@ -10,7 +10,7 @@ export default function index() {
 
       <div className="row my-5">
         <div className="col-4 text-center">
-        <Imaj src="https://raw.githubusercontent.com/attila5287/stainedglassimg/main/awards/0.jpg" alt='refs'/>
+        <Imaj src="https://raw.githubusercontent.com/attila5287/stainedglassimg/main/awards/0.jpg" alt='awards'/>
         </div>
         <div className="col-8">
           <p className='text-center'>
