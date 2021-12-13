@@ -345,10 +345,12 @@ font-family: 'Abel', sans-serif;
 font-size: 1.10rem;
 
 }
+.text-mont{
+font-family: 'Montserrat', sans-serif;
+}
 
 .titre {
-font-family: 'Montserrat',
-sans-serif;
+font-family: 'Montserrat',sans-serif;
     font-size: 2.50rem;
     
 }
@@ -356,4 +358,7 @@ sans-serif;
     font-size: 4.0rem;
     margin-right: 4rem;
     
+}
+.img-blurred-edge{
+        box-shadow: 0 0 8px 8px #272b3041 inset;
 }

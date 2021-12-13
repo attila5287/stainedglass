@@ -45,7 +45,7 @@ export default function index() {
                 return (
                     <div className='text-details' key={'info' + i}>
                         <button
-                            className="add-anime btn-lg btn w-100 btn-outline-secondary border-0 border-bottom border-info rounded-2xl my-3"
+                            className="add-anime btn-lg btn w-100 btn-outline-info border-0 border-bottom border-secondary rounded-2xl my-3"
                             type="button"
                             data-toggle="collapse"
                             data-target={"#collapseExample" + i}

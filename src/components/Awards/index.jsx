@@ -17,10 +17,8 @@ export default function index() {
             <i className='text-xl fas fa-angle-left fa-pull-left'></i>
             {[
               'Institute of Classical Architecture & Art, Rocky Mountain',
-              'Award:',
               '2014 Robert & Judi Newman Awards',
-              'Winner:',
-              'Ann Wolff Glass Design Artizanship',
+              '\(w)\ Ann Wolff Glass Design Artizanship',
               'Project Team:',
               'Ann Wolff,  Indre McCraw',
               'Ramazan Kayacan'
@@ -31,9 +29,9 @@ export default function index() {
                   animationIn='slideInRight'
                   animationInDelay={i * 500}
                   animationOut='bounceOut'
-                  isVisible={true}>
-                  <i>{d}1
-                  </i>
+                  isVisible={true} className='text-mont'>
+                  <p>{d}
+                  </p>
                 </Animated>
 
               )

@@ -2,18 +2,18 @@ import {Animated} from 'react-animated-css';
 import React from 'react'
 import Titre from "../Titre";
 import Imaj from "../Imaj";
-
+import Socials from "../Socials";
 
 export default function index() {
   return (
     <div id="contact" className='section'>
-
-        <Titre icon='s fa-envelope' title='Contact' />
-          
-
-          <div className="row">
+      <Titre icon='s fa-envelope' title='Contact'/>
+      <Socials/>
+      <div className="row text-mont">
         <div className='col-4 text-center'>
-        <Imaj src="https://raw.githubusercontent.com/attila5287/stainedglassimg/main/contact/0.png" alt='contact'/>
+          <Imaj
+            src="https://raw.githubusercontent.com/attila5287/stainedglassimg/main/contact/0.png"
+            alt='contact'/>
         </div>
         <div className='col-8'>
           {[
@@ -36,18 +36,18 @@ export default function index() {
           ].map((d, i) => {
             return (
 
-              <Animated key={'social'+i}
+              <Animated
+                key={'social' + i}
                 animationIn='slideInRight'
                 animationInDelay={i * 250}
                 animationOut='bounceOut'
-                isVisible={true}>
-                <i className={"mx-4 fa" + d.icon}></i>
+                isVisible={true} className='my-3'>
+                <i className={"mx-2 fa" + d.icon}></i>
                 {d.content}
               </Animated>
             )
           })
-}
-
+        }
         </div>
       </div>
 
