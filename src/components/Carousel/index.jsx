@@ -17,16 +17,16 @@ export default function index() {
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img className="d-block w-100" src="https://raw.githubusercontent.com/attila5287/stainedglassimg/main/carousel/00.jpg" alt="First slide"/>
-          <div className="carousel-caption">
+          <div className="carousel-caption text-right">
             <h5>Welcome to Stained Art Glass Denver</h5>
             <p> Ramazan Kayacan &copy; 2021 </p>
           </div>
         </div>
         { Array.from({length:19}).map( (n,i) => {
-          return <div  className="carousel-item"  key={'ref'+i}>
+          return <div  className="carousel-item text-right"  key={'ref'+i}>
             <img className="d-block w-100" src={ "https://raw.githubusercontent.com/attila5287/stainedglassimg/main/carousel/" + i + ".jpg" } alt={"no "+ i + " slide" } />
             <div className="carousel-caption">
-              <h5> References, awards and work { i }</h5>
+              <h5>  { i }</h5>
               <p>&middot; Stained Art Glass Denver &middot; Ramazan Kayacan &middot;</p>
             </div>
           </div>

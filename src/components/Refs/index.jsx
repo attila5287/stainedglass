@@ -7,7 +7,7 @@ export default function index() {
     return ( <div id='refs' className='section'>
         <Titre icon='s fa-comments' title='References' />
         
-    <div className="row my-5 px-4">
+    <div className="row my-5">
       <div className="col-4 text-center">
                 <Imaj src="https://raw.githubusercontent.com/attila5287/stainedglassimg/main/avatar/0.png" alt='refs' />
                 

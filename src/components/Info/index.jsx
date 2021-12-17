@@ -52,7 +52,9 @@ export default function index() {
                             aria-expanded="false"
                             aria-controls={ "collapseExample" + i }>
                             <i className="text-xl mx-2 far fa-comment-alt"></i>
-                            {t.q}
+                            <span className='text-mont'>
+                                { t.q }
+                            </span>
                         </button>
                         <div className="collapse" id={"collapseExample" + i}>
                             <div className="card card-body">
