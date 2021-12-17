@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/stainedglass/static/css/main.1da9b995.chunk.css",
-    "main.js": "/stainedglass/static/js/main.54bb8dbc.chunk.js",
-    "main.js.map": "/stainedglass/static/js/main.54bb8dbc.chunk.js.map",
+    "main.css": "/stainedglass/static/css/main.9d7c7bb6.chunk.css",
+    "main.js": "/stainedglass/static/js/main.8ed00313.chunk.js",
+    "main.js.map": "/stainedglass/static/js/main.8ed00313.chunk.js.map",
     "runtime-main.js": "/stainedglass/static/js/runtime-main.a16b1cce.js",
     "runtime-main.js.map": "/stainedglass/static/js/runtime-main.a16b1cce.js.map",
     "static/css/2.6c672de5.chunk.css": "/stainedglass/static/css/2.6c672de5.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.4234fbf0.chunk.js.map": "/stainedglass/static/js/3.4234fbf0.chunk.js.map",
     "index.html": "/stainedglass/index.html",
     "static/css/2.6c672de5.chunk.css.map": "/stainedglass/static/css/2.6c672de5.chunk.css.map",
-    "static/css/main.1da9b995.chunk.css.map": "/stainedglass/static/css/main.1da9b995.chunk.css.map",
+    "static/css/main.9d7c7bb6.chunk.css.map": "/stainedglass/static/css/main.9d7c7bb6.chunk.css.map",
     "static/js/2.6194633d.chunk.js.LICENSE.txt": "/stainedglass/static/js/2.6194633d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a16b1cce.js",
     "static/css/2.6c672de5.chunk.css",
     "static/js/2.6194633d.chunk.js",
-    "static/css/main.1da9b995.chunk.css",
-    "static/js/main.54bb8dbc.chunk.js"
+    "static/css/main.9d7c7bb6.chunk.css",
+    "static/js/main.8ed00313.chunk.js"
   ]
 }
